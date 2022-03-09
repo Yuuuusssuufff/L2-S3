@@ -18,4 +18,18 @@ console.log(numbers.forEach(callback))
 console.log(names.forEach(callback))
 const newNames = names.map(item => item.toUpperCase())
 console.log(newNames)
+const countriesWithLand = countries.filter(country => country.includes("land"))
+console.log(countriesWithLand)
+const countriesWithSixLetters = countries.filter(function(country){if(country.length === 6){return country}})
+console.log(countriesWithSixLetters)
+const countryStarts = countries.filter(country => country.startsWith("E"))
+console.log(countryStarts)
+products.filter(price => )
+
+let ashes = ''
+for(let i=0; i<10; i++){
+    ashes += "#"
+    console.log(ashes)
+}
+
 
